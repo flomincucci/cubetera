@@ -1,0 +1,23 @@
+@import url("grid.less");
+
+.box {
+    // Grid has a total of
+    .total-column(48);
+    .total-row(20);
+
+    //MAX 2
+    .max2 {
+        .column(23,48);
+        .row(19,20);
+        .push(0.5);
+        .vpush(0.5);
+    }
+
+    .max4 {
+        .column(23,48);
+        .row(9,20);
+        .push(0.5);
+        .vpush(0.5);
+    }
+
+}
